@@ -1,4 +1,4 @@
 all:
-	g++ owo.c -o owo
+	g++ owo.cpp -o owo
 install: all
 	cp owo /usr/bin
