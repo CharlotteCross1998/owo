@@ -1,5 +1,6 @@
 # owo
-owo is a simple c program that every linux user should have.
+owo is a simple program that every linux user should have.
+Written in c and assembly.
 
 # Screenshots
 
@@ -7,7 +8,15 @@ owo is a simple c program that every linux user should have.
 
 # Requirements
 
+### C
 gcc
+
+### Assembly
+nasm
+
+64 bit computer 
+
+### Language independant
 
 ability to sudo if you want to install it
 
@@ -21,8 +30,10 @@ If you'd rather just compile the binary run
     make
 
 # Notes
-I'm not the best programmer, I don't even use c, but this is so simple anyone could do it.
+I'm not the best programmer, I don't even use c or assembly, but this is so simple anyone could do it.
 
 It doesn't do any fancy checks to see where it can install, it just installs to /usr/bin.
 
 It doesn't have fancy colours, command line arguments, it just prints some simple text. Please don't hurt me.
+
+I'm not even trying to make this work in a million different languages but I get bored and it's a simple project so why not.
