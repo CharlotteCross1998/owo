@@ -37,3 +37,6 @@ It doesn't do any fancy checks to see where it can install, it just installs to 
 It doesn't have fancy colours, command line arguments, it just prints some simple text. Please don't hurt me.
 
 I'm not even trying to make this work in a million different languages but I get bored and it's a simple project so why not.
+
+I develop on Linux so if it doesn't work in Windows or Mac (which the installation won't) then that's your problem not mine.
+I'm not smart enough to do OS checking at install. 
