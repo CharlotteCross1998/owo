@@ -1,6 +1,5 @@
 # owo
 owo is a simple program that every linux user should have.
-Written in c and assembly.
 
 # Screenshots
 
@@ -9,12 +8,18 @@ Written in c and assembly.
 # Requirements
 
 ### C
-gcc
+A compiler (my makefile uses gcc)
+
+### C++
+A compiler (my makefile uses g++)
 
 ### Assembly
 nasm
 
 64 bit computer 
+
+### Rust
+A compiler (my makefile uses rustc)
 
 ### Language independant
 
@@ -40,3 +45,5 @@ I'm not even trying to make this work in a million different languages but I get
 
 I develop on Linux so if it doesn't work in Windows or Mac (which the installation won't) then that's your problem not mine.
 I'm not smart enough to do OS checking at install. 
+
+I've never programmed in rust before. I just looked up how to print to the screen and guessed the rest and it worked. I don't know if there's conventions or not. Please don't hurt me for bad code :(
