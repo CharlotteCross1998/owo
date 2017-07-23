@@ -27,7 +27,7 @@ ability to sudo if you want to install it
 
 # Installation
 
-* Download the code
+* Download the code for the language of your choice
 * Run "make install"
 
 If you'd rather just compile the binary run
