@@ -10,6 +10,12 @@ owo is a simple program that every linux user should have.
 ### Bash
 - Linux
 
+### Python 2.7
+- Python 2.7
+
+### Python 3
+- Python 3.0+
+
 ### Language independant
 
 ability to sudo if you want to install it
