@@ -34,6 +34,10 @@ If you'd rather just compile the binary run
 
     make
 
+# Other Programs
+
+- Lolcat - Piping owo to lolcat works really nicely
+
 # Notes
 I'm not the best programmer, I don't even use c or assembly, but this is so simple anyone could do it.
 
