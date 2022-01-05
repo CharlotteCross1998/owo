@@ -3,9 +3,14 @@ owo is a simple program that every linux user should have.
 
 # Screenshots
 
-<img src="http://i.imgur.com/dbfq32L.png"></img>
+![Screenshot of program running normally as well as being piped into pridecat](screens/screenshot.png)
 
 # Requirements
+
+### Language independant
+
+ability to sudo if you want to install it
+`make` to use the makefiles
 
 ### C
 A compiler (my makefile uses gcc)
@@ -14,29 +19,36 @@ A compiler (my makefile uses gcc)
 A compiler (my makefile uses g++)
 
 ### Assembly
-nasm
-
-64 bit computer 
+A compiler and linker (my makefile uses nasm and ld)
 
 ### Rust
 A compiler (my makefile uses rustc)
 
-### Language independant
+### Python2
+Python 2
 
-ability to sudo if you want to install it
+### Python3
+Python 3
+
+### Basic
+A compiler (my makefile uses freebasic)
+
+### Bash
+Bash
+
+### CSharp
+A compiler (my makefile uses mcs)
 
 # Installation
 
 * Download the code for the language of your choice
+* Run "make"
 * Run "make install"
-
-If you'd rather just compile the binary run
-
-    make
 
 # Other Programs
 
-- Lolcat - Piping owo to lolcat works really nicely
+- [Lolcat](https://github.com/busyloop/lolcat) - Piping owo to lolcat works really nicely
+- [Pridecat](https://github.com/lunasorcery/pridecat) - Piping owo to pridecat makes it better
 
 # Notes
 I'm not the best programmer, I don't even use c or assembly, but this is so simple anyone could do it.
