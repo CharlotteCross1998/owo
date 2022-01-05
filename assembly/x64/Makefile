@@ -4,3 +4,4 @@ all:
 	rm owo.o
 install: all
 	cp owo /usr/bin
+	sudo chmod +x /usr/bin/owo
