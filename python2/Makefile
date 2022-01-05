@@ -1,3 +1,3 @@
 install: 
 	cp owo.py /usr/bin
-	sudo chmod +x /usr/bin/owo
+	sudo chmod +x /usr/bin/owo.py
