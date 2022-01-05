@@ -1,0 +1,2 @@
+all:
+	mcs owo.cs 
