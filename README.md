@@ -57,6 +57,10 @@ owo is a simple program that every linux user should have.
 - [Pridecat](https://github.com/lunasorcery/pridecat) - Piping owo to pridecat makes it better
 
 # Notes
+All makefiles use their native environments (i.e armv7l assumes you are using an armv7l processor to compile it). 
+
+If you wish to cross compile, that is up to you to do.
+
 I'm not the best programmer, I don't even use c or assembly, but this is so simple anyone could do it.
 
 It doesn't do any fancy checks to see where it can install, it just installs to /usr/bin.
