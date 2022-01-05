@@ -9,36 +9,35 @@ owo is a simple program that every linux user should have.
 
 ### Language independant
 
-ability to sudo if you want to install it
-
-`make` to use the makefiles
+* ability to sudo if you want to install it
+* `make` to use the makefiles
 
 ### C
-A compiler (my makefile uses gcc)
+* A compiler (my makefile uses gcc)
 
 ### C++
-A compiler (my makefile uses g++)
+* A compiler (my makefile uses g++)
 
 ### Assembly
-A compiler and linker (my makefile uses nasm and ld)
+* A compiler and linker (my makefile uses nasm and ld)
 
 ### Rust
-A compiler (my makefile uses rustc)
+* A compiler (my makefile uses rustc)
 
 ### Python2
-Python 2
+* Python 2
 
 ### Python3
-Python 3
+* Python 3
 
 ### Basic
-A compiler (my makefile uses freebasic)
+* A compiler (my makefile uses freebasic)
 
 ### Bash
-Bash
+* Bash
 
 ### CSharp
-A compiler (my makefile uses mcs)
+* A compiler (my makefile uses mcs)
 
 # Installation
 
