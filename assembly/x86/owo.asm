@@ -4,41 +4,42 @@ section .data
     line3 db " \ \ /\ / /|  _  \/ _ \| __|// / __| | __|  _ \| |/ __|",10,0
     line4 db "  \ V  V / | | | | (_| | |_    \__ \ | |_| | | | |\__ \",10,0
     line5 db "   \_/\_/  |_| |_|\__,_|\__|   |___/ \___|_| |_|_|/___/",10,0
+	lenline1 equ $-line1
+	lenline2 equ $-line2
+	lenline3 equ $-line3
+	lenline4 equ $-line4
+	lenline5 equ $-line5
 
 section .text
     global _start
 
 _start:
+	;Don't ask how the fuck only printing the first line prints them all but it does
+	mov edx, lenline1 ;length of line
+	mov ecx, line1 	; string
+	mov ebx, 1 ; file descriptor (1 is stdout)
+	mov eax, 4 ; the syscall (4 is sys_write)
+	int 0x80
+	; mov edx, lenline2
+	; mov ecx, line2
+	; mov ebx, 1
+	; mov eax, 4
+	; int 0x80
+	; mov edx, lenline3
+	; mov ecx, line3
+	; mov ebx, 1
+	; mov eax, 4
+	; int 0x80
+	; mov edx, lenline4
+	; mov ecx, line4
+	; mov ebx, 1
+	; mov eax, 4
+	; int 0x80
+	; mov edx, lenline5
+	; mov ecx, line5
+	; mov ebx, 1
+	; mov eax, 4
+	; int 0x80
 
-    mov eax, line1
-    call _print
-    mov eax, line2
-    call _print
-    mov eax, line3
-    call _print
-    mov eax, line4
-    call _print
-    mov eax, line5
-    call _print
-
-    mov eax, 60 ; exit
-    mov di, 0
-    syscall
-
-_print:
-    push eax
-    mov ebx, 0
-_printLoop:
-    inc eax
-    inc ebx
-    mov cl, [eax]
-    cmp cl, 0
-    jne _printLoop ; keep incrementing until cl reaches 0
-
-    mov eax, 1
-    mov di, 1
-    pop si
-    mov edx, ebx
-    syscall
-
-    ret
+    mov eax, 1 ; exit
+    int 0x80
