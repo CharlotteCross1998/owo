@@ -10,6 +10,7 @@ owo is a simple program that every linux user should have.
 ### Language independant
 
 ability to sudo if you want to install it
+
 `make` to use the makefiles
 
 ### C
@@ -42,8 +43,8 @@ A compiler (my makefile uses mcs)
 # Installation
 
 * Download the code for the language of your choice
-* Run "make"
-* Run "make install"
+* Run `make`
+* Run `make install`
 
 # Other Programs
 
