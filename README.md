@@ -19,7 +19,13 @@ owo is a simple program that every linux user should have.
 * A compiler (my makefile uses g++)
 
 ### Assembly
-* A compiler and linker (my makefile uses nasm and ld)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>X86 and X86_64</ins>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* A compiler and linker (my makefile uses nasm and ld)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Armv7l</ins>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* A compiler and linker (my makefile uses as and ld)
 
 ### Rust
 * A compiler (my makefile uses rustc)
