@@ -27,6 +27,10 @@ owo is a simple program that every linux user should have.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* A compiler and linker (my makefile uses as and ld)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Aarch64</ins>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* A compiler and linker (my makefile uses gcc's aarch64 cross compiler)
+
 ### Rust
 * A compiler (my makefile uses rustc)
 
