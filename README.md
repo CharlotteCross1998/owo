@@ -31,6 +31,10 @@ owo is a simple program that every linux user should have.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* A compiler and linker (my makefile uses gcc's aarch64 cross compiler)
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>6502 (C64)</ins>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* [cc65](https://cc65.github.io/) compiler, Commodore 64 emulator (the makefile uses VICE)
+
 ### Rust
 * A compiler (my makefile uses rustc)
 
